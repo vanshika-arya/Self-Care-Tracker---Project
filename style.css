@@ -1,0 +1,50 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #090326;
+  padding: 20px;
+  text-align: center;
+}
+h1{
+    color: #ccc;
+}
+h2{
+    color: #b2ebf2;
+}
+
+button.glass {
+  margin: 5px;
+  padding: 10px 14px;
+  font-size: 20px;
+  border: none;
+  background-color: #e0f7fa;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+button.glass:hover {
+  background-color: #b2ebf2;
+}
+
+input, textarea, select {
+  padding: 8px;
+  margin: 5px 0 15px 0;
+  width: 100%;
+  max-width: 300px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#save-btn {
+  padding: 10px 20px;
+  background-color: #55efc4;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#save-btn:hover {
+  background-color: #00b894;
+}

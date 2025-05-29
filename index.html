@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Self-Care Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🌼 Self-Care Daily Tracker</h1>
+
+  <section>
+    <h2>💧 Water Intake</h2>
+    <div id="water-tracker">
+      <button class="glass">💧</button>
+      <button class="glass">💧</button>
+      <button class="glass">💧</button>
+      <button class="glass">💧</button>
+      <button class="glass">💧</button>
+      <button class="glass">💧</button>
+      <button class="glass">💧</button>
+      <button class="glass">💧</button>
+    </div>
+  </section>
+
+  <section>
+    <h2>😴 Sleep (Hours)</h2>
+    <input type="number" id="sleep-input" min="0" max="12" />
+  </section>
+
+  <section>
+    <h2>📱 Screen Time (Hours)</h2>
+    <input type="number" id="screen-input" min="0" max="24" />
+  </section>
+
+  <section>
+    <h2>📝 Journal</h2>
+    <textarea id="journal-input" placeholder="How was your day?"></textarea>
+  </section>
+
+  <section>
+    <h2>😊 Mood</h2>
+    <select id="mood-select">
+      <option value="😊">Happy</option>
+      <option value="😐">Neutral</option>
+      <option value="😴">Sleepy</option>
+      <option value="😢">Sad</option>
+      <option value="😡">Angry</option>
+    </select>
+  </section>
+
+  <button id="save-btn">💾 Save My Day</button>
+  <div id="confirmation" style="display: none; margin-top: 20px;"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
