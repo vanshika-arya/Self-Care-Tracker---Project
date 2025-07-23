@@ -8,7 +8,7 @@ This is a basic self-care tracking website made using HTML, CSS, and JavaScript.
 
 📝 Journal – Write about your day
 
-💧 Water Intake – Track how much water you drank
+💧 Water Intake – Track how much water you drank 
 
 😌 Mood – Select your mood for the day
 
